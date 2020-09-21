@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@brynschulha/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "brynschulha's lotide library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/brynschulha/lotide.git"
   },
-  "author": "",
+  "author": "Bryn Schulha <bschulha@ualberta.ca>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brynschulha/lotide/issues"
