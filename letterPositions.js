@@ -37,3 +37,5 @@ letterPositions ("lighthouse in the house");
 letterPositions ("bryn is so cool");
 
 assertArraysEqual(letterPositions("hello").e, [1]);
+
+module.exports = letterPositions;

@@ -25,3 +25,5 @@ const assertEqual = function(actual, expected) {
 countLetters ("lighthouse in the house");
 
 countLetters ("bryn is so cool");
+
+module.exports = countLetters;

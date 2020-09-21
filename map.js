@@ -38,3 +38,5 @@ const numbers = [1, 2, 3, 4, 5, 6];
 assertArraysEqual(map(numbers, number => number * 2), [2, 4, 6, 8, 10, 12]);
 
 assertArraysEqual(map(words, word => word.slice(1)), ['round', 'ontrol', 'o', 'ajor', 'om']);
+
+module.exports = map;

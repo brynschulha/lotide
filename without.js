@@ -36,12 +36,14 @@ let original = [1, 2, 3, 4]
 without(original, [1, 2]);
 console.log(original);
 
-const without = function(source, itemsToRemove) {
-  let newArray = [];
-    for (let j = 0; j < source.length; j++) {
-     if (!itemsToRemove.includes(source[j])) {
-       newArray.push(source[j]);
-     }
-  }
-  console.log(newArray);
-};
+// const without = function(source, itemsToRemove) {
+//   let newArray = [];
+//     for (let j = 0; j < source.length; j++) {
+//      if (!itemsToRemove.includes(source[j])) {
+//        newArray.push(source[j]);
+//      }
+//   }
+//   console.log(newArray);
+// };
+
+module.exports = without;
